@@ -1,0 +1,13 @@
+<html>
+    <p><span id="datetime"></span></p>
+
+    <script>
+    var dt = new Date();
+    var y = dt.getFullYear();
+    var m = dt.getMonth() + 1;
+    var d = dt.getDate();
+    var hour = dt.getHours();
+    var minute = dt.getMinutes();
+    document.getElementById("datetime").innerHTML = d + "-" + m + "-" + y + "_" + hour + ":" + minute;
+    </script>
+</html>
